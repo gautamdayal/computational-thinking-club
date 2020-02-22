@@ -51,7 +51,7 @@ for i in range(10, 1, -1): # counts down from 10 till 1, as the increments are -
 
 # Default values for Range
 
-for i in range(6): # if only one parameter is passed, it is assumed to be the final value or ending parameter. The default starting value is 1 and the default increment is 1 as well.
+for i in range(6): # if only one parameter is passed, it is assumed to be the final value or ending parameter. The default starting value is 0 and the default increment is 1 as well.
     [code]
 
 for i in range(1, 7) # if two parameters are given, the first is assumed to be the starting value and the last is assumed to be the ending value. The default increment is taken to be 1.
@@ -66,7 +66,7 @@ total = 0
 for i in range(len(T)): # len(T) returns the length of the list, in this case it is 3 as there are 3 elements in T
     total += T[i]
 
-# The range is the range of values that i can take, which is from 1 till the 3(since 3 is the length)
+# The range is the range of values that i can take, which is from 0 till 3 (since 3 is the length)
 
 """
 Try it yourself
@@ -93,7 +93,7 @@ while 2 > 1: # since the expression 2 > 1 is always true, the loop continues to 
 # The meter conversion, but this time using a while loop
 i = 0
 L_m = []
-while i < len(L): # While the expression i < len(L) is true, where len(L) refers the length of the list, which is 3 in this case due to 3 elements, the loop runs.
+while i < len(L): # While the expression i < len(L) is true the loop runs. len(L) refers the length of the list, which is 3 in this case as it contains 3 elements.
     L_m.append(L[i]/100)
     i += 1
 
