@@ -1,0 +1,9 @@
+#a = 1
+#while a < 50:
+#    print(str(a) + " I'm probably bi but idk for sure")
+#    a = a + 1
+
+nums = ["vishnu", "mahika", "rishi", "arsh", "sarvesh", "varidhi"]
+
+for a in nums:
+    print("hello, " + a)
